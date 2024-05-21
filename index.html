@@ -6,26 +6,29 @@
     </head>
 
     <body>
-        <div class="img-txt">
-            <img src="me.jpg">
+        <div id="img-txt">
+            <img src="me.jpg" alt="Callum smiling at the camera">
             <div>
-                <h1 class="title-txt">Hi, my name is Callum.</h1>
+                <h1 id="title-txt">Hi, my name is <span class="name">Callum</span></h1>
                 <p>Aspiring Frontend Developer.</p>
                 <p>A self taught programmer showcasing my journey in the world of web development!</p>
             </div>
     </div>
         <div class="text">
             <div>
-                <h2 class="h2-txt">Fun facts about me:</h2>
+                    <div id="webp-wrapper">
+                        <img src="computer penguin.webp" alt="a penguin typing on a computer">
+                    </div>
+                <h2>Fun facts about me:</h2>
 
-                <ul class="lst-txt">
+                <ul>
                     <li>25 years old</li>
                     <li>Live in Liverpool</li>
                     <li>Virtual pilot</li>
                 </ul>
 
 
-                <h2 class="h2-txt">Projects</h2>
+                <h2>Projects</h2>
                     <ul>
                         <li>
                             <a href="google-clone/google.html" target="_blank">Google Home Page Clone</a>
@@ -33,10 +36,12 @@
                         <li>
                             <a href="businesscard/index.html" target="_blank">Business Card</a>
                         </li>
+                        <li>
+                            <a href="spaceexplorationsite/index.html" target="_blank">Mock SpaceX Homepage</a>
+                        </li>
                     </ul>
                 </div>
-            </div>
-        </div> 
+            </div> 
                 <P>Please connect with me on 
                     <a href="https://www.linkedin.com/in/callumrobinson18/" target="_blank">Linkedin</a>
                 </P>
@@ -46,10 +51,9 @@
                 <p>Follow my progress on
                     <a href="https://roadmap.sh/u/callum" target="_blank">roadmap.sh</a>
                 </p>
-            <input class="input" type="text" placeholder="Enter email...">
+            <input id="input" type="text" placeholder="Enter email...">
 
-            <button class="button">Join newsletter</button>
-        
+            <button id="button">Join newsletter</button>
 
     </body>
 </html>
