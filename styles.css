@@ -7,56 +7,70 @@
 
 body {
     font-family: Wix Madefor Display, sans-serif;
-    background: linear-gradient(#B9B3AE, whitesmoke);
-    color: #1C0E08;
-    text-shadow: 0 0 1px black;
+    color: black;
+    margin: 0;
+    color: whitesmoke;
 }
 
 #hero{
-    border: 5px solid #686359;
-    border-radius: 10px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#img-me{
-    width: 250px;
-    border-radius: 50%; 
-    margin: 8px 0 0 0;   
+    background-color: #746D5E;
+    padding: 100px;
 }
 
 #hero-h1 {
-    border-bottom: 5px solid #686359;
-    margin: 5px 0 0 0;
+    margin-bottom: 20px;
+}
+
+span{
+    border-bottom: 3px solid black;
 }
 
 #hero-h3 {
-    margin: 5px 0 0 0
+    margin-bottom: 0px;
 }
 
 #hero-h4 {
-    margin: 5px 0 8px 0
+    margin-top: 0px;
 }
 
 #content{
     display: flex;
     justify-content: space-around;
     margin-top: 8px;
+    background-color: #71635C;
+    margin: 0;
+}
+
+
+#links {
+    color: black;
+    text-shadow: 0 0 1px black;
+    padding: 1 0 5px 15px;
+}
+
+#links a {
+    color: black;
+}
+
+#links a:hover {
+    color: #71635C;
+}
+
+#links a:visited {
+    color: black;
 }
 
 a {
-    color: #1C0E08;
+    color: whitesmoke;
     text-shadow: 0 0 1px black;
 }
 
 a:hover {
-    color: #604F3B;
+    color: #231A18;
     text-shadow: 0 0 1px black;   
 }
 
 a:visited {
-    color: #1C0E08;
+    color: whitesmoke;
     text-shadow: 0 0 1px black;
 }
