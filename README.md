@@ -3,4 +3,4 @@ Created in May 2024 it is currently extremely basic but in a few months, I hope 
 All feedback is welcome!
 
 Instructions:
-Simply visit https://callum-robinson.netlify.app/ or download and open index.html in any browser.
+Simply visit https://robbo1806.github.io/ or download and open index.html in any browser.
