@@ -55,6 +55,10 @@ span{
     border-radius: 10px;
 }
 
+#about-me img {
+    border-radius: 50%;
+}
+
 #links {
     color: black;
     padding: 15px 0 15px 0;
