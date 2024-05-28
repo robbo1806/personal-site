@@ -10,6 +10,7 @@ body {
     color: black;
     margin: 0;
     color: whitesmoke;
+    flex-wrap: wrap;
 }
 
 #hero{
@@ -38,16 +39,19 @@ span{
     margin: 0;
 }
 
-#about-me {
+#links {
     display: flex;
     justify-content: space-around;
-    padding: 15px 0 18px 0;
+    flex-direction: row-reverse;
+    padding: 15px 10px 18px 10px;
+    align-items: center;
 }
 
 #projects {
     display: flex;
     justify-content: space-around;
-    padding-top: 18px;
+    padding: 15px 10px 18px 10px;
+    align-items: center;
 }
 
 #content img {
@@ -55,31 +59,31 @@ span{
     border-radius: 10px;
 }
 
-#about-me img {
-    border-radius: 50%;
-}
 
-#links {
+#about-me {
     color: black;
-    padding: 15px 0 15px 0;
+    padding: 18px 10px 15px 10px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-#links img {
-    border-radius: 10px;
+#about-me img {
+    border-radius: 50%;
     border: 2px solid #71635C;
+    width: 200px;
 }
 
-#links a {
+#about-me a {
     color: black;
 }
 
-#links a:hover {
+#about-me a:hover {
     color: #71635C;
 }
 
-#links a:visited {
+#about-me a:visited {
     color: black;
 }
 
